@@ -1,0 +1,13 @@
+[package]
+name = "lock_test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+snarkvm = {version = "0.16", features = ["test-helpers"]}
+indexmap = "2"
+
+[dependencies.time]
+version = "0.3"
